@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import HookSwitcher from "./use-state";
-import Context from "./use-context";
-import UseEffect from "./use-effect";
+import UseStateHook from "./use-state";
+import UseContextHook from "./use-context";
+import UseEffectHook from "./use-effect";
 
 const App = () => {
     return (
         <div className="hooks">
-            <Context/>
-            <HookSwitcher/>
-            <UseEffect/>
+            <UseContextHook/>
+            <UseStateHook/>
+            <UseEffectHook/>
         </div>
 
     );

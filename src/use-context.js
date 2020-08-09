@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 
 const MyContext = React.createContext();
 
-const Context = () => {
+const UseContextHook = () => {
     return (
         <MyContext.Provider value="useContext() Hook">
             <Child/>
@@ -26,4 +26,4 @@ const Child = () => {
     // )
 };
 
-export default Context;
+export default UseContextHook;
